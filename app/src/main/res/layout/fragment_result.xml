@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".ResultFragment">
+
+   <ImageView
+       android:src="@drawable/result_picture"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       tools:ignore="ContentDescription" />
+
+   <TextView
+       android:textColor="@color/black2"
+       android:layout_marginTop="4dp"
+       android:layout_width="wrap_content"
+       android:text="@string/you"
+       android:id="@+id/firstName"
+       android:textSize="26sp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"/>
+
+   <ImageView
+       android:layout_gravity="center"
+       android:src="@drawable/heart"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       tools:ignore="ContentDescription" />
+
+   <TextView
+       android:textColor="@color/black2"
+       android:layout_marginTop="4dp"
+       android:layout_width="wrap_content"
+       android:text="@string/me"
+       android:id="@+id/secondName"
+       android:textSize="26sp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"/>
+
+   <TextView
+       android:layout_marginTop="4dp"
+       android:layout_width="wrap_content"
+       android:text="@string/your_score"
+       android:textColor="@color/red"
+       android:textSize="30sp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"/>
+
+   <TextView
+       android:layout_marginTop="4dp"
+       android:layout_width="wrap_content"
+       android:text="@string/_0"
+       android:textColor="@color/black2"
+       android:id="@+id/percentageText"
+       android:textSize="26sp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"/>
+
+   <TextView
+       android:layout_marginTop="4dp"
+       android:layout_width="wrap_content"
+       android:text="@string/result"
+       android:textColor="@color/black2"
+       android:id="@+id/resultText"
+       android:textSize="30sp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"/>
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="200dp"
+       app:backgroundTint="@color/blue"
+       android:layout_marginTop="40dp"
+       android:id="@+id/btnTryAgain"
+       android:textColor="@color/black2"
+       android:text="@string/try_again"
+       app:cornerRadius="20dp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
